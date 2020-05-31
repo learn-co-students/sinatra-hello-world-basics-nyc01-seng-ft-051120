@@ -3,6 +3,7 @@ describe "GET '/'" do
     get '/'
   end
 
+
   it "responds with a 200 status code" do
     expect(last_response.status).to eq(200)
   end
